@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40477FA21DDF0190046C778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40477F921DDF0190046C778 /* AppDelegate.m */; };
+		C40477FD21DDF0190046C778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40477FC21DDF0190046C778 /* ViewController.m */; };
+		C404780021DDF0190046C778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40477FE21DDF0190046C778 /* Main.storyboard */; };
+		C404780221DDF0290046C778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C404780121DDF0290046C778 /* Assets.xcassets */; };
+		C404780521DDF0290046C778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C404780321DDF0290046C778 /* LaunchScreen.storyboard */; };
+		C404780821DDF0290046C778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C404780721DDF0290046C778 /* main.m */; };
+		C404781121DDF0500046C778 /* SeaSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C404780F21DDF0500046C778 /* SeaSwitch.m */; };
+		C404781421DDF0AA0046C778 /* SeaNativeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C404781321DDF0AA0046C778 /* SeaNativeHUD.m */; };
+		C404781921DDF5590046C778 /* SeaSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404781721DDF5590046C778 /* SeaSwitchViewController.m */; };
+		C404781A21DDF5590046C778 /* SeaSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C404781821DDF5590046C778 /* SeaSwitchViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C40477F521DDF0190046C778 /* SeaUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40477F821DDF0190046C778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40477F921DDF0190046C778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40477FB21DDF0190046C778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40477FC21DDF0190046C778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C40477FF21DDF0190046C778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C404780121DDF0290046C778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C404780421DDF0290046C778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C404780621DDF0290046C778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C404780721DDF0290046C778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C404780F21DDF0500046C778 /* SeaSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaSwitch.m; sourceTree = "<group>"; };
+		C404781021DDF0500046C778 /* SeaSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaSwitch.h; sourceTree = "<group>"; };
+		C404781221DDF0AA0046C778 /* SeaNativeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaNativeHUD.h; sourceTree = "<group>"; };
+		C404781321DDF0AA0046C778 /* SeaNativeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaNativeHUD.m; sourceTree = "<group>"; };
+		C404781521DDF0EC0046C778 /* SeaUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeaUI.h; sourceTree = "<group>"; };
+		C404781621DDF5590046C778 /* SeaSwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeaSwitchViewController.h; sourceTree = "<group>"; };
+		C404781721DDF5590046C778 /* SeaSwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeaSwitchViewController.m; sourceTree = "<group>"; };
+		C404781821DDF5590046C778 /* SeaSwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeaSwitchViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40477F221DDF0190046C778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40477EC21DDF0190046C778 = {
+			isa = PBXGroup;
+			children = (
+				C40477F721DDF0190046C778 /* SeaUIDemo */,
+				C40477F621DDF0190046C778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40477F621DDF0190046C778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40477F521DDF0190046C778 /* SeaUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40477F721DDF0190046C778 /* SeaUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C404780E21DDF03C0046C778 /* SeaUI */,
+				C40477F821DDF0190046C778 /* AppDelegate.h */,
+				C40477F921DDF0190046C778 /* AppDelegate.m */,
+				C40477FB21DDF0190046C778 /* ViewController.h */,
+				C40477FC21DDF0190046C778 /* ViewController.m */,
+				C40477FE21DDF0190046C778 /* Main.storyboard */,
+				C404780121DDF0290046C778 /* Assets.xcassets */,
+				C404780321DDF0290046C778 /* LaunchScreen.storyboard */,
+				C404780621DDF0290046C778 /* Info.plist */,
+				C404780721DDF0290046C778 /* main.m */,
+				C404781621DDF5590046C778 /* SeaSwitchViewController.h */,
+				C404781721DDF5590046C778 /* SeaSwitchViewController.m */,
+				C404781821DDF5590046C778 /* SeaSwitchViewController.xib */,
+			);
+			path = SeaUIDemo;
+			sourceTree = "<group>";
+		};
+		C404780E21DDF03C0046C778 /* SeaUI */ = {
+			isa = PBXGroup;
+			children = (
+				C404781521DDF0EC0046C778 /* SeaUI.h */,
+				C404781221DDF0AA0046C778 /* SeaNativeHUD.h */,
+				C404781321DDF0AA0046C778 /* SeaNativeHUD.m */,
+				C404781021DDF0500046C778 /* SeaSwitch.h */,
+				C404780F21DDF0500046C778 /* SeaSwitch.m */,
+			);
+			path = SeaUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40477F421DDF0190046C778 /* SeaUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C404780B21DDF0290046C778 /* Build configuration list for PBXNativeTarget "SeaUIDemo" */;
+			buildPhases = (
+				C40477F121DDF0190046C778 /* Sources */,
+				C40477F221DDF0190046C778 /* Frameworks */,
+				C40477F321DDF0190046C778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaUIDemo;
+			productName = SeaUIDemo;
+			productReference = C40477F521DDF0190046C778 /* SeaUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40477ED21DDF0190046C778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = seabrea;
+				TargetAttributes = {
+					C40477F421DDF0190046C778 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C40477F021DDF0190046C778 /* Build configuration list for PBXProject "SeaUIDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40477EC21DDF0190046C778;
+			productRefGroup = C40477F621DDF0190046C778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40477F421DDF0190046C778 /* SeaUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40477F321DDF0190046C778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C404780521DDF0290046C778 /* LaunchScreen.storyboard in Resources */,
+				C404780221DDF0290046C778 /* Assets.xcassets in Resources */,
+				C404781A21DDF5590046C778 /* SeaSwitchViewController.xib in Resources */,
+				C404780021DDF0190046C778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40477F121DDF0190046C778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40477FD21DDF0190046C778 /* ViewController.m in Sources */,
+				C404781121DDF0500046C778 /* SeaSwitch.m in Sources */,
+				C404780821DDF0290046C778 /* main.m in Sources */,
+				C404781421DDF0AA0046C778 /* SeaNativeHUD.m in Sources */,
+				C404781921DDF5590046C778 /* SeaSwitchViewController.m in Sources */,
+				C40477FA21DDF0190046C778 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C40477FE21DDF0190046C778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40477FF21DDF0190046C778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C404780321DDF0290046C778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C404780421DDF0290046C778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C404780921DDF0290046C778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C404780A21DDF0290046C778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C404780C21DDF0290046C778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4YHU2GEWQ;
+				INFOPLIST_FILE = SeaUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabrea.SeaUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C404780D21DDF0290046C778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4YHU2GEWQ;
+				INFOPLIST_FILE = SeaUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabrea.SeaUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40477F021DDF0190046C778 /* Build configuration list for PBXProject "SeaUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C404780921DDF0290046C778 /* Debug */,
+				C404780A21DDF0290046C778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C404780B21DDF0290046C778 /* Build configuration list for PBXNativeTarget "SeaUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C404780C21DDF0290046C778 /* Debug */,
+				C404780D21DDF0290046C778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40477ED21DDF0190046C778 /* Project object */;
+}
