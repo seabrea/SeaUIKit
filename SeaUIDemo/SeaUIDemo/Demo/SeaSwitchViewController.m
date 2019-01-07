@@ -7,7 +7,7 @@
 //
 
 #import "SeaSwitchViewController.h"
-#import "SeaUI/SeaSwitch.h"
+#import "SeaSwitch.h"
 
 @interface SeaSwitchViewController ()
 

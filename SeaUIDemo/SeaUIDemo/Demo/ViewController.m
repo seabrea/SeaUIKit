@@ -7,12 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import "CustorNavigationViewController.h"
 #import "SeaSwitchViewController.h"
+#import "SeaUI.h"
 
-#import "SeaUI/SeaUI.h"
-
-#define CELL_HINT @[@"原生风格中心弹框",@"原生风格底部弹框",@"原生风格Loading",@"原生风格Toast 带时间控制",@"原生风格Toast",@"可定制Switch"]
+#define CELL_HINT @[@"原生风格中心弹框",@"原生风格底部弹框",@"原生风格Loading",@"原生风格Toast 带时间控制",@"原生风格Toast",@"可定制Switch",@"自定义导航栏"]
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -69,6 +68,10 @@
         }
         case 5: {
             [self.navigationController pushViewController:[SeaSwitchViewController new] animated:YES];
+            break;
+        }
+        case 6: {
+            [self.navigationController pushViewController:[CustorNavigationViewController new] animated:YES];
             break;
         }
         default:
