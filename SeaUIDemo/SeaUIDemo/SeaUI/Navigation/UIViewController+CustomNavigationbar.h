@@ -1,8 +1,8 @@
 //
-//  UINavigationController+CustomNavigationbar.h
+//  UIViewController+CustomNavigationbar.h
 //  SeaUIDemo
 //
-//  Created by Bob on 2019/1/7.
+//  Created by Bob on 2019/1/8.
 //  Copyright © 2019年 seabrea. All rights reserved.
 //
 
@@ -10,12 +10,26 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UINavigationController (CustomNavigationbar)
+@interface UIViewController (CustomNavigationbar)
 
 /// 是否支持手势返回，默认为 NO
 @property(nonatomic, assign) BOOL popGestureRecognizer;
+
 /// 导航栏背景色
 @property(nonatomic, strong) UIColor *navigationColor;
+
+/// 左边文字按钮的颜色
+@property(nonatomic, strong) UIColor *rightTitleColor;
+
+/// 右边文字按钮的颜色
+@property(nonatomic, strong) UIColor *leftTitleColor;
+
+/// 中间标题文字的颜色
+@property(nonatomic, strong) UIColor *centerTitleColor;
+
+/// 返回按钮的ImageName
+@property(nonatomic,   copy) NSString *backBtnImageName;
+
 
 /**
  * 右上角按钮处理事件

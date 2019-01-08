@@ -17,10 +17,9 @@
 		C404781421DDF0AA0046C778 /* SeaNativeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C404781321DDF0AA0046C778 /* SeaNativeHUD.m */; };
 		C404781921DDF5590046C778 /* SeaSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404781721DDF5590046C778 /* SeaSwitchViewController.m */; };
 		C404781A21DDF5590046C778 /* SeaSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C404781821DDF5590046C778 /* SeaSwitchViewController.xib */; };
-		C404787821E336FE0046C778 /* UINavigationController+CustomNavigationbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C404787721E336FE0046C778 /* UINavigationController+CustomNavigationbar.m */; };
 		C404787F21E349020046C778 /* CustorNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404787D21E349020046C778 /* CustorNavigationViewController.m */; };
 		C404788021E349020046C778 /* CustorNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C404787E21E349020046C778 /* CustorNavigationViewController.xib */; };
-		C404788421E34AFE0046C778 /* ShowCustorNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404788321E34AFE0046C778 /* ShowCustorNavigationViewController.m */; };
+		C404788721E43D610046C778 /* UIViewController+CustomNavigationbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C404788621E43D610046C778 /* UIViewController+CustomNavigationbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,13 +41,11 @@
 		C404781621DDF5590046C778 /* SeaSwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeaSwitchViewController.h; sourceTree = "<group>"; };
 		C404781721DDF5590046C778 /* SeaSwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeaSwitchViewController.m; sourceTree = "<group>"; };
 		C404781821DDF5590046C778 /* SeaSwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeaSwitchViewController.xib; sourceTree = "<group>"; };
-		C404787621E336FE0046C778 /* UINavigationController+CustomNavigationbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CustomNavigationbar.h"; sourceTree = "<group>"; };
-		C404787721E336FE0046C778 /* UINavigationController+CustomNavigationbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CustomNavigationbar.m"; sourceTree = "<group>"; };
 		C404787C21E349020046C778 /* CustorNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustorNavigationViewController.h; sourceTree = "<group>"; };
 		C404787D21E349020046C778 /* CustorNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustorNavigationViewController.m; sourceTree = "<group>"; };
 		C404787E21E349020046C778 /* CustorNavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustorNavigationViewController.xib; sourceTree = "<group>"; };
-		C404788221E34AFE0046C778 /* ShowCustorNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowCustorNavigationViewController.h; sourceTree = "<group>"; };
-		C404788321E34AFE0046C778 /* ShowCustorNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowCustorNavigationViewController.m; sourceTree = "<group>"; };
+		C404788521E43D610046C778 /* UIViewController+CustomNavigationbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomNavigationbar.h"; sourceTree = "<group>"; };
+		C404788621E43D610046C778 /* UIViewController+CustomNavigationbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomNavigationbar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +122,8 @@
 		C404787B21E342C80046C778 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				C404787621E336FE0046C778 /* UINavigationController+CustomNavigationbar.h */,
-				C404787721E336FE0046C778 /* UINavigationController+CustomNavigationbar.m */,
+				C404788521E43D610046C778 /* UIViewController+CustomNavigationbar.h */,
+				C404788621E43D610046C778 /* UIViewController+CustomNavigationbar.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -143,8 +140,6 @@
 				C404787C21E349020046C778 /* CustorNavigationViewController.h */,
 				C404787D21E349020046C778 /* CustorNavigationViewController.m */,
 				C404787E21E349020046C778 /* CustorNavigationViewController.xib */,
-				C404788221E34AFE0046C778 /* ShowCustorNavigationViewController.h */,
-				C404788321E34AFE0046C778 /* ShowCustorNavigationViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -226,10 +221,9 @@
 				C404780821DDF0290046C778 /* main.m in Sources */,
 				C404781421DDF0AA0046C778 /* SeaNativeHUD.m in Sources */,
 				C404787F21E349020046C778 /* CustorNavigationViewController.m in Sources */,
-				C404787821E336FE0046C778 /* UINavigationController+CustomNavigationbar.m in Sources */,
 				C404781921DDF5590046C778 /* SeaSwitchViewController.m in Sources */,
 				C40477FA21DDF0190046C778 /* AppDelegate.m in Sources */,
-				C404788421E34AFE0046C778 /* ShowCustorNavigationViewController.m in Sources */,
+				C404788721E43D610046C778 /* UIViewController+CustomNavigationbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
