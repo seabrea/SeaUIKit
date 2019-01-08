@@ -12,9 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (CustomNavigationbar)
 
-/// 是否支持手势返回，默认为 NO
-@property(nonatomic, assign) BOOL popGestureRecognizer;
-
 /// 导航栏背景色
 @property(nonatomic, strong) UIColor *navigationColor;
 

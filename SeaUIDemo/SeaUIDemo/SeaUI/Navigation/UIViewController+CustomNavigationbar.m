@@ -118,10 +118,6 @@ static UIBarButtonItem *rightItem;
     
     leftItem = [[UIBarButtonItem alloc] initWithCustomView:self.leftBt];
     self.navigationItem.leftBarButtonItem = leftItem;
-    
-    if(self.popGestureRecognizer) {
-        self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
-    }
 }
 
 - (void)navigationRightImage:(UIImage *)image {
@@ -242,7 +238,7 @@ static UIBarButtonItem *rightItem;
     if(!subView || !supView) {
         return;
     }
-
+    
     supView.translatesAutoresizingMaskIntoConstraints = NO;
     subView.translatesAutoresizingMaskIntoConstraints = NO;
     
@@ -276,7 +272,7 @@ static UIBarButtonItem *rightItem;
     CGContextSetLineWidth(context, 2);
     CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
     CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
-
+    
     CGContextMoveToPoint(context, 5, 22);
     CGContextAddLineToPoint(context, 15, 13);
     CGContextMoveToPoint(context, 5, 22);
@@ -316,16 +312,6 @@ static UIBarButtonItem *rightItem;
 
 - (void)setLeftBt:(UIButton *)leftBt {
     objc_setAssociatedObject(self, @selector(leftBt), leftBt, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (BOOL)popGestureRecognizer {
-    
-    NSNumber *boolNumber = objc_getAssociatedObject(self, @selector(popGestureRecognizer));
-    return boolNumber.boolValue;
-}
-
-- (void)setPopGestureRecognizer:(BOOL)popGestureRecognizer {
-    objc_setAssociatedObject(self, @selector(popGestureRecognizer), [NSNumber numberWithBool:popGestureRecognizer], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (UIColor *)navigationColor {
